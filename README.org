@@ -1,0 +1,9 @@
+* Test it
+- Run ~iex -S mix~
+- In the iex shell write,
+  ~SpotifyUriParser.parse("spotify:track:7i9763l5SSfOnqZ35VOcfy")~
+
+The result should look like this:
+#+BEGIN_SRC Elixir
+[{:keyword, 1, :track}, {:spotify_id, 1, '7i9763l5SSfOnqZ35VOcfy'}]
+#+END_SRC
